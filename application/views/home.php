@@ -13,7 +13,6 @@
  <script type="text/javascript">
  $(document).ready(function() {
    $(function(){
-      //Add bounce effect on Click of the DIV
       $('#logo').click(function () {
         $(this).effect("bounce", { times:5 }, 2000);
       });
