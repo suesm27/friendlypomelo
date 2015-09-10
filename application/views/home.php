@@ -37,6 +37,17 @@
         <img class="rotate45" src="/assets/images/pomelo.png">
         <h3>Drag me!</h3>
       </div>
+    </div>
+      <div class="spacer">
+      </div>
+      <div id="animated-example3" class="animated3 shake">
+          <img class="upright" style="width: 93px" src="/assets/images/pomelo.png">
+          <img class="upright" style="width: 93px" src="/assets/images/pomelo.png">
+      </div>
+      <div class="spacer">
+      </div>
+      <div id="animated-example4" class="animated4 hinge">
+         <img class="rotate105" src="/assets/images/pomelo.png">
       </div>
     </div> <!-- /container -->
   </div>
