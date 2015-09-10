@@ -16,6 +16,10 @@
     width: 192px;
 }
 
+.ui-widget-content {
+	background-color: transparent;
+}
+
 .animated { 
     -webkit-animation-duration: 4s; 
     animation-duration: 4s; 
