@@ -21,6 +21,16 @@ h3 {
 	margin: 0 auto;
 }
 
+.spacer {
+	height: 30px;
+}
+
+.rotate45 {
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+}
+
 .ui-widget-content {
 	background-color: transparent;
 }

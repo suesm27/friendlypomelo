@@ -28,12 +28,14 @@
     <div class="container">
       <div id="bouncable">
         <h3>Click me!</h3>
-        <img src="/assets/images/pomelo.png">
+        <img class="upright" src="/assets/images/pomelo.png">
+      </div>
+      <div class="spacer">
       </div>
       <div id="draggable" class="ui-widget-content" style="border: none; width: 192px">
         <div id="animated-example" class="animated swing">
+        <img class="rotate45" src="/assets/images/pomelo.png">
         <h3>Drag me!</h3>
-        <img src="/assets/images/pomelo.png">
       </div>
       </div>
     </div> <!-- /container -->
