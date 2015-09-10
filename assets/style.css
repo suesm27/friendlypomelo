@@ -9,6 +9,8 @@
 
 #draggable {
 	margin: 0 auto;
+	border: none; 
+	width: 192px;
 }
 
 #animated-example, #animated-example3, #animated-example4 {
