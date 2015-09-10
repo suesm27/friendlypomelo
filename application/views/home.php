@@ -12,7 +12,7 @@
  <script type="text/javascript">
  $(document).ready(function() {
    $(function(){
-      $('#logo').click(function () {
+      $('#bouncable').click(function () {
         $(this).effect("bounce", { times:5 }, 2000);
       });
     });
@@ -26,11 +26,13 @@
 <body>
   <div class="main-container">
     <div class="container">
-      <div id="logo">
+      <div id="bouncable">
+        <h3>Click me!</h3>
         <img src="/assets/images/pomelo.png">
       </div>
       <div id="draggable" class="ui-widget-content" style="border: none; width: 192px">
         <div id="animated-example" class="animated swing">
+        <h3>Drag me!</h3>
         <img src="/assets/images/pomelo.png">
       </div>
       </div>
