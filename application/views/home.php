@@ -17,6 +17,9 @@
         $(this).effect("bounce", { times:5 }, 2000);
       });
     });
+   $(function() {
+    $( "#draggable" ).draggable();
+    });
  });
  </script>
  <style></style>
@@ -27,6 +30,11 @@
     <div class="container">
       <div id="logo">
         <img src="/assets/images/pomelo.png">
+      </div>
+      <div id="draggable" class="ui-widget-content" style="border: none; width: 192px">
+        <div id="animated-example" class="animated swing">
+        <img src="/assets/images/pomelo.png">
+      </div>
       </div>
     </div> <!-- /container -->
   </div>
