@@ -20,11 +20,28 @@
 
 h3 {
 	width: 110px;
+    text-align: center;
 	margin: 0 auto;
 }
 
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
 .spacer {
 	height: 30px;
+}
+
+#right {
+    position: absolute;
+    left: 50px;
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
 }
 
 .rotate45 {
